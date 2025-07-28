@@ -1,10 +1,19 @@
 import './App.css';
 
+import Header from './components/Header.js';
+import Hero from './components/Hero';
+import About from './components/About';
+
 function App() {
   return (
-    <div className='start'>
-      <spon className = 'ss'>ss</spon>
-
+    <div className="App">
+      <Header />
+      <main>
+        <Hero />
+        <About />
+        
+      </main>
+      
     </div>
   );
 }
