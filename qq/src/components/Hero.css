@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Classic Console Neue';
+    font-style: normal;
+    font-weight: 400;
+    src: local("Classic Console Neue"),
+         url(/src/font/clacon2.ttf) format(ttf),
+         url(/src/font/clacon2.woff2) format(woff2);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+.sys {
+    padding: 116px 140px;
+    height: 1224;
+    width: 1920;
+    background: var(--white, #F5F5F5);
+}
+.headerblock {
+
+    width: 646px;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+
+}
+
+
+.header {
+    color: var(--grey, #808080);
+    font-family: "Classic Console Neue";
+    font-size: 36px;
+    line-height: normal;
+    letter-spacing: 7.2px;
+    align-self: stretch;
+    left: 0;
+}
+.header_text {
+    color: var(--black, var(--black, #030303));
+    font-family: "Classic Console Neue";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52px; /* 92.857% */
+    letter-spacing: 1.12px;
+    align-self: stretch;
+}
+
+.sysblock{
+    margin-top: 64px;
+    display: flex;
+    width: 1641px;
+    height: 828px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    aspect-ratio: 1641.47/828.00;
+    
+    right: -0.737px;
+    border-radius: 10px;
+    background: var(--white, #F5F5F5);
+
+/* fl stroke with shadow */
+box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.10), 0.5px 0.5px 0 0 rgba(0, 0, 0, 0.10) inset, 2px 2px 0 0 rgba(0, 0, 0, 0.10) inset, -0.5px -0.5px 0 0 rgba(0, 0, 0, 0.10) inset, -2px -2px 0 1px rgba(0, 0, 0, 0.10) inset;
+}
+.sys_nav {
+display: flex;
+height: 26px;
+padding: 8 0 0 0;
+justify-content: start;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+align-self: stretch;
+border-radius: 5px;
+background: var(--white, #F5F5F5);
+
+/* fl stroke */
+box-shadow: 0.5px 0.5px 0 0 rgba(0, 0, 0, 0.10) inset, 2px 2px 0 0 rgba(0, 0, 0, 0.10) inset, -0.5px -0.5px 0 0 rgba(0, 0, 0, 0.10) inset, -2px -2px 0 1px rgba(0, 0, 0, 0.10) inset;
+
+}
+.text_nav{
+    width: 1514px;
+    color: var(--grey, #6E6E6E);
+    text-align: start;
+    padding-left: 8px;
+    /* search txt */
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.7px;
+}

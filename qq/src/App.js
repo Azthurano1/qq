@@ -1,17 +1,12 @@
 import './App.css';
-
-import Header from './components/Header.js';
-import Hero from './components/Hero';
-import About from './components/About';
+import Hero from "./components/Hero"
 
 function App() {
   return (
     <div className="App">
-      <Header />
       <main>
         <Hero />
-        <About />
-        
+              
       </main>
       
     </div>
