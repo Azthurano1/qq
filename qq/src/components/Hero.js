@@ -12,10 +12,13 @@ export class Hero extends Component {
             <div className='sys_nav'>
                 <div className='text_nav'>C:\Users\SunTimer\Desktop</div>
                 <div className='button_nav'>
-                    <img src="/src/images/Vector.svg" alt='button_nav'></img>
-                    <img src='./images/qube.svg' alt='button_nav'></img>
-                    <img src='./images/x.svg' alt='button_nav'></img>
+                    <img className = "vector" src="../images/Vector.svg" alt='buttonnav'></img>
+                    <img className = "qube" src='../images/qube.svg' alt='buttonnav'></img>
+                    <img className = "x" src='../images/x.svg' alt='buttonnav'></img>
                 </div>
+            </div>
+            <div className='sysback'>
+              {/* <img className='imgsysback' src="../images/sysback.jpg" alt='imgsysback'></img> */}
             </div>
         </div>
     </div>

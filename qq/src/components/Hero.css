@@ -61,10 +61,11 @@
     right: -0.737px;
     border-radius: 10px;
     background: var(--white, #F5F5F5);
-
+    z-index: 1;
 /* fl stroke with shadow */
 box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.10), 0.5px 0.5px 0 0 rgba(0, 0, 0, 0.10) inset, 2px 2px 0 0 rgba(0, 0, 0, 0.10) inset, -0.5px -0.5px 0 0 rgba(0, 0, 0, 0.10) inset, -2px -2px 0 1px rgba(0, 0, 0, 0.10) inset;
 }
+
 .sys_nav {
 display: flex;
 height: 26px;
@@ -93,4 +94,43 @@ box-shadow: 0.5px 0.5px 0 0 rgba(0, 0, 0, 0.10) inset, 2px 2px 0 0 rgba(0, 0, 0,
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.7px;
+}
+.button_nav {
+    margin-left: 60px;
+    display: flex;
+    width: 14px;
+    height: 14px;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+.x, .qube {
+    aspect-ratio: 1/1;
+    padding: 3px;
+    border-radius: 1px;
+    background: var(--white, #F5F5F5);
+    box-shadow: -0.75px -0.75px 0 0 rgba(0, 0, 0, 0.10) inset, 0.5px 0.5px 0 0 rgba(0, 0, 0, 0.10) inset, 0.5px 0.5px 0 0 rgba(0, 0, 0, 0.10) inset, 0.75px 0.75px 0 0.063px rgba(0, 0, 0, 0.10) inset;
+
+}
+.vector{
+    
+    padding: 12px 3px 3px 3px;
+    border-radius: 2px;
+    background: var(--white, #F5F5F5);
+    box-shadow: -0.75px -0.75px 0 0 rgba(0, 0, 0, 0.10) inset, 0.5px 0.5px 0 0 rgba(0, 0, 0, 0.10) inset, 0.5px 0.5px 0 0 rgba(0, 0, 0, 0.10) inset, 0.75px 0.75px 0 0.063px rgba(0, 0, 0, 0.10) inset;
+}
+.sysback {
+    display: flex;
+    width: 1600px;
+    margin: auto ;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    border-radius: 5px;
+    background: url("../sysback.jpg") lightgray 0px -170.739px / 100% 213.53% no-repeat;
+    box-shadow: 0.5px 0.5px 0 0 rgba(0, 0, 0, 0.10) inset, 2px 2px 0 0 rgba(0, 0, 0, 0.10) inset, -0.5px -0.5px 0 0 rgba(0, 0, 0, 0.10) inset, -2px -2px 0 1px rgba(0, 0, 0, 0.10) inset;
+    transform: rotateY(180deg);
+    z-index: 4;
 }
