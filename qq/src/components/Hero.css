@@ -403,23 +403,10 @@ box-shadow: 0.5px 0.5px 0 0 rgba(0, 0, 0, 0.10) inset, 2px 2px 0 0 rgba(0, 0, 0,
     letter-spacing: 0.6px;
     
 }
-.img1_cont {
-    display: flex;
-    padding: 24px;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
-    flex: 1 0 0;
-    align-self: stretch;
 
-    border-radius: 5px;
-    /* background: url("qq/src/components/Content.svg") lightgray -710.737px -297px / 421.053% 1148.201% no-repeat, url("..qq/src/components/Content.svg") lightgray 50% / cover no-repeat; */
-    box-shadow: 0.5px 0.5px 0 0 rgba(0, 0, 0, 0.10) inset, 2px 2px 0 0 rgba(0, 0, 0, 0.10) inset, -0.5px -0.5px 0 0 rgba(0, 0, 0, 0.10) inset, -2px -2px 0 1px rgba(0, 0, 0, 0.10) inset;
-
-}
 .img1_ct {
-   display: flex;
-    padding: 24px;
+    display: flex;
+    
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
