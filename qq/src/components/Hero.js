@@ -80,7 +80,7 @@ export class Hero extends Component {
                       </div>
                   </div>
                   <div className='img_count2'>
-                    
+                    <img className='img2_ct' src='../images/img2.jpg' alt='backgroundimg2'></img>
                   </div>
 
                 </div>
