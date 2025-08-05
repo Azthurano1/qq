@@ -57,7 +57,7 @@ export class Hero extends Component {
                 </div>
                 <div className='img1_content'>
                   <div className='nav_img1'>
-                    
+                    <div className='img1_text'>https://img.png</div>
                   </div>
                 </div>
                 <div classname='promo2'>
