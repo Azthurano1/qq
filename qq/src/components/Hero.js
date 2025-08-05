@@ -66,7 +66,7 @@ export class Hero extends Component {
                     </div>
                   </div>
                   <div className='img1_cont'>
-                    <img className='img1_ct' src='../images/Content.svg' alt='backgroundimg1'></img>
+                    <img className='img1_ct' src='../images/Content.jpg' alt='backgroundimg1'></img>
                   </div>
                 </div>
 
