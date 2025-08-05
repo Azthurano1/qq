@@ -58,6 +58,11 @@ export class Hero extends Component {
                 <div className='img1_content'>
                   <div className='nav_img1'>
                     <div className='img1_text'>https://img.png</div>
+                      <div className='button_nav'>
+                        <img className = "vector" src="../images/Vector.svg" alt='buttonnav'></img>
+                        <img className = "qube" src='../images/qube.svg' alt='buttonnav'></img>
+                        <img className = "x" src='../images/x.svg' alt='buttonnav'></img>
+                    </div>
                   </div>
                 </div>
                 <div classname='promo2'>
