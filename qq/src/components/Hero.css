@@ -403,7 +403,7 @@ box-shadow: 0.5px 0.5px 0 0 rgba(0, 0, 0, 0.10) inset, 2px 2px 0 0 rgba(0, 0, 0,
     letter-spacing: 0.6px;
     
 }
-img1_cont {
+.img1_cont {
     display: flex;
     padding: 24px;
     flex-direction: column;
