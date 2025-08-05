@@ -55,6 +55,7 @@ export class Hero extends Component {
                     </div>
                   </div>
                 </div>
+
                 <div className='img1_content'>
                   <div className='nav_img1'>
                     <div className='img1_text'>https://img.png</div>
@@ -64,7 +65,11 @@ export class Hero extends Component {
                         <img className = "x" src='../images/x.svg' alt='buttonnav'></img>
                     </div>
                   </div>
+                  <div className='img1_cont'>
+                    
+                  </div>
                 </div>
+
                 <div classname='promo2'>
                   <div classname ='promo_search2'>
                     <div className='promo_text2'>https://promo.png</div>
@@ -75,7 +80,7 @@ export class Hero extends Component {
                       </div>
                   </div>
                 </div>
-            </div>
+                </div>
             </div>
             
         </div>
