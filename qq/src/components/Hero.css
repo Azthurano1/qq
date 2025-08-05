@@ -379,7 +379,7 @@ box-shadow: 0.5px 0.5px 0 0 rgba(0, 0, 0, 0.10) inset, 2px 2px 0 0 rgba(0, 0, 0,
 
     display: flex;
     height: 26px;
-    padding: 6px 8px;
+    
     justify-content: flex-end;
     align-items: center;
     gap: 10px;
