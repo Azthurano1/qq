@@ -413,7 +413,7 @@ box-shadow: 0.5px 0.5px 0 0 rgba(0, 0, 0, 0.10) inset, 2px 2px 0 0 rgba(0, 0, 0,
     align-self: stretch;
 
     border-radius: 5px;
-    background: url(../Content.svg) lightgray -710.737px -297px / 421.053% 1148.201% no-repeat, url(../Content.svg) lightgray 50% / cover no-repeat;
+    background: url("../Content.svg") lightgray -710.737px -297px / 421.053% 1148.201% no-repeat, url("../Content.svg") lightgray 50% / cover no-repeat;
     box-shadow: 0.5px 0.5px 0 0 rgba(0, 0, 0, 0.10) inset, 2px 2px 0 0 rgba(0, 0, 0, 0.10) inset, -0.5px -0.5px 0 0 rgba(0, 0, 0, 0.10) inset, -2px -2px 0 1px rgba(0, 0, 0, 0.10) inset;
 
 }
