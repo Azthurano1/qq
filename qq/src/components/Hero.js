@@ -73,19 +73,52 @@ export class Hero extends Component {
                 <div className='img2_content'>
                   <div className='nav_img2'>
                     <div className='img2_text'>https://img.png</div>
-                      <div className='button_nav'>
-                        <img className='vector' src='../images/Vector.svg' alt='buttonnav'></img>
-                        <img className='qube' src='../images/qube.svg' alt='buttonnav'></img>
-                        <img className='x' src='../images/x.svg' alt='buttonnav'></img>
-                      </div>
+                    <div className='button_nav'>
+                      <img className='vector' src='../images/Vector.svg' alt='buttonnav'></img>
+                      <img className='qube' src='../images/qube.svg' alt='buttonnav'></img>
+                      <img className='x' src='../images/x.svg' alt='buttonnav'></img>
+                    </div>
                   </div>
                   <div className='img_count2'>
                     <img className='img2_ct' src='images/img2.png' alt='backgroundimg2'></img>
                   </div>
 
                 </div>
-
+                <div className='img3_content'>
+                  <div className='nav_img3'>
+                    <div className='img3_text'>https://img.png</div>
+                    <div className='button_nav'>
+                      <img className='vector' src='../images/Vector.svg' alt='buttonnav'></img>
+                      <img className='qube' src='../images/qube.svg' alt='buttonnav'></img>
+                      <img className='x' src='../images/x.svg' alt='buttonnav'></img>
+                    </div>
+                  </div>
+                  <div className='img_count3'>
+                    <img className='img3_ct' src='../images/img3.svg' alt='backgroundimg3'></img>
+                  </div>
+                </div>
                 
+                <div className='functions'>
+                  <div className='nav_func'>
+                    <div className='func_text'>https://functions.txt</div>
+                    <div className='button_nav'>
+                      <img className='vector' src='../images/Vector.svg' alt='buttonnav'></img>
+                      <img className='qube' src='../images/qube.svg' alt='buttonnav'></img>
+                      <img className='x' src='../images/x.svg' alt='buttonnav'></img>
+                    </div>
+                  </div>
+                  <div className='func_count'>
+                    <div className='content_func'>
+                      <div className='content_block_func1'>
+                        <div className='func1_1text'>База данных</div>
+                        <div className='func1_1text'>Microsoft SQL Server</div>
+                        <div className='func1_1text'></div>
+                      </div>
+                      <div className='content_block_func2'></div>
+                      <div className='content_block_func3'></div>
+                    </div>
+                  </div>
+                </div>
                 </div>
             </div>
             
