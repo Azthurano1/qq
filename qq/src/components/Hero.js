@@ -86,7 +86,7 @@ export class Hero extends Component {
                 </div>
                 <div className='img3_content'>
                   <div className='nav_img3'>
-                    <div className='img3_text'>https://img.</div>
+                    <div className='img3_text'>https://img.png</div>
                     <div className='button_nav'>
                       <img className='vector' src='../images/Vector.svg' alt='buttonnav'></img>
                       <img className='qube' src='../images/qube.svg' alt='buttonnav'></img>
@@ -94,7 +94,7 @@ export class Hero extends Component {
                     </div>
                   </div>
                   <div className='img_count3'>
-                    <img className='img3_ct' src='../images/img3' alt='backgroundimg3'></img>
+                    <img className='img3_ct' src='../images/img3.svg' alt='backgroundimg3'></img>
                   </div>
                 </div>
                 
