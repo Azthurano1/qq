@@ -542,7 +542,7 @@ box-shadow: 0.5px 0.5px 0 0 rgba(0, 0, 0, 0.10) inset, 2px 2px 0 0 rgba(0, 0, 0,
 
 .img3_ct {
     display: flex;
-    padding: 24px;
+    
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
