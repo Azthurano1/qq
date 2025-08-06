@@ -73,18 +73,30 @@ export class Hero extends Component {
                 <div className='img2_content'>
                   <div className='nav_img2'>
                     <div className='img2_text'>https://img.png</div>
-                      <div className='button_nav'>
-                        <img className='vector' src='../images/Vector.svg' alt='buttonnav'></img>
-                        <img className='qube' src='../images/qube.svg' alt='buttonnav'></img>
-                        <img className='x' src='../images/x.svg' alt='buttonnav'></img>
-                      </div>
+                    <div className='button_nav'>
+                      <img className='vector' src='../images/Vector.svg' alt='buttonnav'></img>
+                      <img className='qube' src='../images/qube.svg' alt='buttonnav'></img>
+                      <img className='x' src='../images/x.svg' alt='buttonnav'></img>
+                    </div>
                   </div>
                   <div className='img_count2'>
                     <img className='img2_ct' src='../images/img2.jpg' alt='backgroundimg2'></img>
                   </div>
 
                 </div>
-
+                <div className='img3_content'>
+                  <div className='nav_img3'>
+                    <div className='img3_text'>https://img.</div>
+                    <div className='button_nav'>
+                      <img className='vector' src='../images/Vector.svg' alt='buttonnav'></img>
+                      <img className='qube' src='../images/qube.svg' alt='buttonnav'></img>
+                      <img className='x' src='../images/x.svg' alt='buttonnav'></img>
+                    </div>
+                  </div>
+                  <div className='img_count3'>
+                    <img className='img3_ct' src='../images/img3' alt='backgroundimg3'></img>
+                  </div>
+                </div>
                 
                 </div>
             </div>
