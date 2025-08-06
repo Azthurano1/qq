@@ -98,6 +98,27 @@ export class Hero extends Component {
                   </div>
                 </div>
                 
+                <div className='functions'>
+                  <div className='nav_func'>
+                    <div className='func_text'>https://functions.txt</div>
+                    <div className='button_nav'>
+                      <img className='vector' src='../images/Vector.svg' alt='buttonnav'></img>
+                      <img className='qube' src='../images/qube.svg' alt='buttonnav'></img>
+                      <img className='x' src='../images/x.svg' alt='buttonnav'></img>
+                    </div>
+                  </div>
+                  <div className='func_count'>
+                    <div className='content_func'>
+                      <div className='content_block_func1'>
+                        <div className='func1_1text'>База данных</div>
+                        <div className='func1_1text'>Microsoft SQL Server</div>
+                        <div className='func1_1text'></div>
+                      </div>
+                      <div className='content_block_func2'></div>
+                      <div className='content_block_func3'></div>
+                    </div>
+                  </div>
+                </div>
                 </div>
             </div>
             
