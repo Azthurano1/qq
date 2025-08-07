@@ -119,6 +119,21 @@ export class Hero extends Component {
                     </div>
                   </div>
                 </div>
+
+                <div className='descriptions'>
+                  <div className='nav_desc'>
+                    <div className='desc_text'>https://descriptions.txt</div>
+                    <div className='button_nav'>
+                      <img className='vector' src='../images/Vector.svg' alt='buttonnav'></img>
+                      <img className='qube' src='../images/qube.svg' alt='buttonnav'></img>
+                      <img className='x' src='../images/x.svg' alt='buttonnav'></img>
+                    </div>
+                  </div>
+                  <div className='desc_content'>
+                    <div className='desc_ct'>SunTimer — современная система управления студиями загара и салонами красоты, объединяющая управление оборудованием, автоматизацию продаж и учёт всех операций в едином решении.</div>
+                  </div>
+
+                </div>
                 </div>
             </div>
             
