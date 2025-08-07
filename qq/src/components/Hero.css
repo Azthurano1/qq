@@ -647,6 +647,7 @@ grid-row-gap: 0px;
 
 
 .descriptions {
+    margin-top: -9;
     display: flex;
     grid-area: 3 / 3 / 4 / 4;
     width: 580px;
