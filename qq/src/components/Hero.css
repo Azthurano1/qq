@@ -680,8 +680,8 @@ grid-row-gap: 0px;
 }
 .func1_2text {
     float: left;
-    width: 132px;
-    height: 170px;
+    width: 170px;
+    height: 21px;
     color: var(--black, var(--black, #030303));
     font-family: Lato;
     font-size: 18px;
@@ -696,7 +696,7 @@ grid-row-gap: 0px;
 .plus {
      display: flex;
     margin-left: auto;
-    margin-bottom: 30px;
+    
     width: 32px;
     height: 32px;
     justify-content: center;
