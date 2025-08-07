@@ -647,7 +647,8 @@ grid-row-gap: 0px;
 
 }
 .content_block_func1 {
-    display: flex;
+
+    display: grid;
     height: 80px;
     padding: 8px 16px;
     align-items: center;
@@ -655,9 +656,54 @@ grid-row-gap: 0px;
     align-self: stretch;
     border-radius: 5px;
     background: var(--white, #F5F5F5);
-
+    grid-template-columns: fr2 fr1;
+    grid-template-rows: fr1 fr1;
     /* fl stroke */
     box-shadow: 0.5px 0.5px 0 0 rgba(0, 0, 0, 0.10) inset, 2px 2px 0 0 rgba(0, 0, 0, 0.10) inset, -0.5px -0.5px 0 0 rgba(0, 0, 0, 0.10) inset, -2px -2px 0 1px rgba(0, 0, 0, 0.10) inset;
+}
+
+.func1_1text {
+    float: left;
+    width: 132px;
+    height: 21px;
+    color: var(--pomada, #821985);
+    font-family: "Classic Console Neue";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 87.5% */
+    
+    grid-area: 1 / 1 / 1 / 1;
+
+
+}
+.func1_1text {
+    float: left;
+    width: 132px;
+    height: 170px;
+    color: var(--black, var(--black, #030303));
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 116.667% */
+    
+    grid-area: 1 / 1 / 1 / 1;
+
+
+}
+.plus {
+     display: flex;
+    margin-left: auto;
+    margin-bottom: 30px;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+    border-radius: 8px;
+    background: #F5F5F5;
+    box-shadow: 0.5px 0.5px 0px 0px rgba(0, 0, 0, 0.10) inset, 2px 2px 0px 0px rgba(0, 0, 0, 0.10) inset, -0.5px -0.5px 0px 0px rgba(0, 0, 0, 0.10) inset, -2px -2px 0px 1px rgba(0, 0, 0, 0.10) inset;
 }
 
 .descriptions {
