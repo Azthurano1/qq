@@ -508,7 +508,7 @@ grid-row-gap: 0px;
 }
 
 .img3_content {
-    margin-top: -9px;
+    margin-top: -23px;
     display: flex;
     grid-area: 3 / 1 / 4 / 2;
     width: 380px;
@@ -758,7 +758,7 @@ grid-row-gap: 0px;
     grid-template-rows: auto auto;
 }
 .descriptions {
-    margin-top: -9;
+    margin-top: -9px;
     display: flex;
     grid-area: 3 / 3 / 4 / 4;
     width: 580px;
