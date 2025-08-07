@@ -649,7 +649,8 @@ grid-row-gap: 0px;
 .content_block_func1 {
 
     display: grid;
-    height: 80px;
+    height: 64px;
+    width: 312px;
     padding: 8px 16px;
     align-items: center;
     flex-shrink: 0;
