@@ -669,7 +669,7 @@ grid-row-gap: 0px;
 
 .func1_1text {
     float: left;
-    width: 132px;
+    width: 100%;
     height: 21px;
     color: var(--pomada, #821985);
     font-family: "Classic Console Neue";
@@ -684,7 +684,7 @@ grid-row-gap: 0px;
 }
 .func1_2text {
     float: left;
-    width: 170px;
+    width: 100%;
     height: 21px;
     color: var(--black, var(--black, #030303));
     font-family: Lato;
