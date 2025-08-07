@@ -111,8 +111,8 @@ export class Hero extends Component {
                   <div className='func_count'>
                     <div className='content_func'>
                       <div className='content_block_func1'>
-                        <div className='func1_1text'>База данных</div>
-                        <div className='func1_2text'>Microsoft SQL Server</div>
+                        <div className='func1_1text'>Операционные системы</div>
+                        <div className='func1_2text'>Windows 8, Windows 8.1</div>
                         <div className='plus'>
                           <img src='../images/Page-1.svg'  width={12.6} height={12} />
                         </div>
@@ -120,8 +120,8 @@ export class Hero extends Component {
                     </div>
                     <div className='content_func'>
                       <div className='content_block_func2'>
-                        <div className='func1_1text'>База данных</div>
-                        <div className='func1_2text'>Microsoft SQL Server</div>
+                        <div className='func1_1text'>Архитектура</div>
+                        <div className='func1_2text'>Клиент-серверная</div>
                         <div className='plus'></div>
                       </div>
                     </div>
