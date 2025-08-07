@@ -129,7 +129,7 @@ export class Hero extends Component {
                     </div>
                     <div className='content_func'>
                       <div className='content_block_func3'>
-                        <div className='func2_1text'>Архитектура</div>
+                        <div className='func3_1text'>Архитектура</div>
                         <div className='func1_2text'>Клиент-серверная</div>
                         <div className='plus'>
                           <img src='../images/Page-1.svg'  width={12.6} height={12} />
