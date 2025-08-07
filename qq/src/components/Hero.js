@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import "./Hero.css"
+import images from 'qq/public'
 export class Hero extends Component {
   render() {
     return (
@@ -111,8 +112,10 @@ export class Hero extends Component {
                     <div className='content_func'>
                       <div className='content_block_func1'>
                         <div className='func1_1text'>База данных</div>
-                        <div className='func1_1text'>Microsoft SQL Server</div>
-                        <div className='func1_1text'></div>
+                        <div className='func1_2text'>Microsoft SQL Server</div>
+                        <div className='plus'>
+                          <img src='../images/Page-1.svg'  width={12.6} height={12} />
+                        </div>
                       </div>
                       <div className='content_block_func2'></div>
                       <div className='content_block_func3'></div>
