@@ -119,7 +119,11 @@ export class Hero extends Component {
                       </div>
                     </div>
                     <div className='content_func'>
-                      <div className='content_block_func2'></div>
+                      <div className='content_block_func2'>
+                        <div className='func1_1text'>База данных</div>
+                        <div className='func1_2text'>Microsoft SQL Server</div>
+                        <div className='plus'></div>
+                      </div>
                     </div>
                     <div className='content_func'>
                       <div className='content_block_func3'></div>
