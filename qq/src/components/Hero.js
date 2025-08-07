@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import "./Hero.css"
-import './images'
+
 export class Hero extends Component {
   render() {
     return (
