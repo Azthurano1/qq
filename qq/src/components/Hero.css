@@ -575,6 +575,7 @@ grid-row-gap: 0px;
 }
 
 .functions {
+    margin-top: 11px;
     display: flex;
     grid-area: 2 / 2 / 4 / 3;
     width: 380px;
