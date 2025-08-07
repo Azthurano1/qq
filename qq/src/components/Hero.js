@@ -117,8 +117,12 @@ export class Hero extends Component {
                           <img src='../images/Page-1.svg'  width={12.6} height={12} />
                         </div>
                       </div>
+                    <div className='content_func'>
                       <div className='content_block_func2'></div>
+                    </div>
+                    <div className='content_func'>
                       <div className='content_block_func3'></div>
+                    </div>
                     </div>
                   </div>
                 </div>
