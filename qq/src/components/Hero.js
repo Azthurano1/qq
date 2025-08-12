@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import "./Hero.css"
+
 export class Hero extends Component {
   render() {
     return (
@@ -111,13 +112,47 @@ export class Hero extends Component {
                     <div className='content_func'>
                       <div className='content_block_func1'>
                         <div className='func1_1text'>База данных</div>
-                        <div className='func1_1text'>Microsoft SQL Server</div>
-                        <div className='func1_1text'></div>
+                        <div className='func1_2text'>Microsoft SQL Server</div>
+                        <div className='plus'>
+                          <img src='../images/Page-1.svg'  width={12.6} height={12} />
+                        </div>
                       </div>
-                      <div className='content_block_func2'></div>
-                      <div className='content_block_func3'></div>
+                    </div>
+                    <div className='content_func'>
+                      <div className='content_block_func2'>
+                        <div className='func2_1text'>Операционные системы</div>
+                        <div className='func1_2text'>Windows 8, Windows 8.1</div>
+                        <div className='plus'>
+                          <img src='../images/Page-1.svg'  width={12.6} height={12} />
+                        </div>
+                      </div>
+                    </div>
+                    <div className='content_func'>
+                      <div className='content_block_func3'>
+                        <div className='func3_1text'>Архитектура</div>
+                        <div className='func1_2text'>Клиент-серверная</div>
+                        <div className='plus'>
+                          <img src='../images/Page-1.svg'  width={12.6} height={12} />
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+
+                <div className='descriptions'>
+                  <div className='nav_desc'>
+                    <div className='desc_text'>https://descriptions.txt</div>
+                    <div className='button_nav'>
+                      <img className='vector' src='../images/Vector.svg' alt='buttonnav'></img>
+                      <img className='qube' src='../images/qube.svg' alt='buttonnav'></img>
+                      <img className='x' src='../images/x.svg' alt='buttonnav'></img>
                     </div>
                   </div>
+                  <div className='desc_content'>
+                    <div className='desc_ct'>SunTimer — современная система управления студиями загара и салонами красоты, объединяющая управление оборудованием, автоматизацию продаж и учёт всех операций в едином решении.</div>
+                  </div>
+
                 </div>
                 </div>
             </div>
