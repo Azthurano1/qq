@@ -52,8 +52,8 @@
 
 .sysblock{
     display: flex;
-    width: 1641.474px;
-    height: 828px;
+    width: 1601.474px;
+    height: 782px;
     padding: 20px;
     flex-direction: column;
     align-items: center;
@@ -144,6 +144,7 @@ box-shadow: 0.5px 0.5px 0 0 rgba(0, 0, 0, 0.10) inset, 2px 2px 0 0 rgba(0, 0, 0,
     
 }
 .blockcont {
+    padding-top: 8px;
     display: grid;
     width: 1484px;
     height: 610px;
@@ -253,7 +254,7 @@ grid-row-gap: 0px;
     display: grid;
     height: 45px;
     width: 100%;
-    padding: 8px 16px 10px 16px;
+    padding: 8px 0px 10px 0px;
     align-content: flex-end;
     flex-direction: column;
     gap: 8px;
@@ -302,7 +303,7 @@ grid-row-gap: 0px;
     line-height: normal;
     letter-spacing: 6.4px;
     grid-column: 2;
-    grid-row:2
+    
     
 }
 .content_block_promo2 {
@@ -761,7 +762,7 @@ grid-row-gap: 0px;
     grid-template-rows: auto auto;
 }
 .descriptions {
-    margin-top: -9px;
+    margin-top: -19px;
     display: flex;
     grid-area: 3 / 3 / 4 / 4;
     width: 580px;
