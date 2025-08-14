@@ -816,7 +816,7 @@ grid-row-gap: 0px;
 }
 
 .desc_ct {
- color: var(--black, var(--black, #030303));
+    color: var(--black, var(--black, #030303));
     font-family: Lato;
     font-size: 18px;
     font-style: normal;
