@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <main>
         <Hero />
-        <Faq />
+        {/* <Faq /> */}
               
       </main>
       

@@ -816,13 +816,12 @@ grid-row-gap: 0px;
 }
 
 .desc_ct {
-    align-self: stretch;
-    color: var(--black, var(--black, #030303));
+ color: var(--black, var(--black, #030303));
     font-family: Lato;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.36px;
-}
 
+}
